@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+        
+}
+
+/* NAVIGATIONS */
+
+.body{
+    background-image: url(Images/pexels-eric-santoyo-232743-739410.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -250px;
+    
+}
+.Class{
+    background-color: rgb(3, 0, 0);
+    color: white;
+    font-size: 16px;
+    height: 80px;
+    width: 100%;
+    display: flex;   
+}
+.A,.B,.C,.D,.E,.F{
+   margin-top: 20px;
+}
+.A{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.A:hover{
+    color: rgb(220, 220, 122);
+    text-decoration-line: underline;
+}
+.B{
+   
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.B1,.B2,.B3,.B4{
+     color: white;
+     font-size: 20px;
+     text-decoration: none;
+     
+}
+.B2,.B3,.B4{
+     margin-left: 30px;
+}
+.B1:hover{
+    color: rgb(220, 220, 122);
+    text-decoration-line: underline;
+}
+.B2:hover{
+    color: rgb(220, 220, 122);
+    text-decoration-line: underline;
+}
+.B3:hover{
+    color: rgb(220, 220, 122);
+    text-decoration-line: underline;
+}
+.B4:hover{
+    color: rgb(220, 220, 122);
+    text-decoration-line: underline;
+}
+.C{
+    margin-left: 250px;
+    margin-top: 32px;
+    font-size: 20px;
+}
+.C1{
+    text-decoration: none;
+    color: aliceblue;
+}
+.C1:hover{
+    color: #555;
+}
+.D{
+    margin-left: 100px;
+    margin-top: 32px;
+    font-size: 20px;
+    border: rgb(208, 206, 206) solid 2px;
+    height: 28px;
+    width: 200px;
+}
+.D1{
+    background-color:black;
+    height: 25px;
+    color: white;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+
+}
+.D2{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 4px;
+
+}
+.E{
+    margin-left: 150px;
+    margin-top: 14px;
+   
+}
+
+/* Precision and Performance in the Air */
+
+.All{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+.Al{
+    display: flex;
+}
+.G{
+    color: aliceblue;
+    margin-left: 50px;
+}
+.H{
+    color: aliceblue;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.I{
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-color: rgb(209, 209, 80);
+}
+.I:hover{
+    background-color: black;
+    color: rgb(226, 226, 19);
+}
+
+/* Animation */
+
+ .I1 {
+      overflow: hidden;
+      white-space: nowrap;  
+      padding: 20px 0;
+      font-size: 20px;
+}
+
+.I2{
+      display: flex;
+      padding-left: 50%;
+      animation: scroll-left 6s linear infinite;
+      animation-iteration-count: infinite;
+      
+}
+@keyframes scroll-left {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+}
+
+/* ALL PRODUCTS 3 IMAGES */
+ 
+.Clas{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    margin-top: 120px;
+
+}   
+.J{
+    border: solid 2px white;
+    margin-top: 80px;
+}
+.K{
+    border: solid 2px white;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.L{
+    border: solid 2px white;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.M{
+    color: aliceblue;
+}
+.N{
+    color: aliceblue;
+    margin-left: 60px;
+}
+.O{
+    color: aliceblue;
+    margin-left: 60px;
+}
+.KN{
+    margin-left: 130px;
+    margin-top: 60px;
+    color: black;
+    background-color: rgb(226, 226, 42);
+    border-radius: 20px;
+    height: 50px;
+    width: 140px;
+    font-size: 20px;
+    border-color: yellow;
+} 
+.KN:hover{
+    background-color: black;
+    color: yellow;
+}
+
+/* ABOUTS */
+
+.P{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+}
+.Q{
+    color: aliceblue;
+    font-size: 70px;
+    margin-left: 50px;
+    padding: 20px;
+}
+.R{
+    float: left;
+}
+.RR{
+     color: aliceblue;
+     font-size: 25px;
+     margin-right: 200px;
+     
+}
+
+/* OFFERING */
+
+.S{
+    background-color: black;
+}
+.SS{
+    background-color: black;
+    margin-left: 15px;
+    font-size: 50px;
+    color: aliceblue;
+    padding: 40px;
+    
+}
+.SSS{
+    color: aliceblue;
+    font-size: 50px;
+    margin-left: 70px;
+}
+
+/* OUR PRODUCTS */
+
+.T{
+    background-color: black;
+    color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+    padding: 25px;
+}
+.U{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    height: 700px;
+    width: 100%;
+      
+}
+.U1,.U6,.U3{
+    height: 700px;
+    width: 400px;
+    margin-left: 100px;
+   
+    
+}
+.U2,.U4,.U5{
+    border: 2px solid rgb(248, 248, 248);
+    margin-top: 100px;
+
+    
+}
+.U1,.U3{
+    border-right: 2px solid rgb(242, 240, 240);
+}
+.U11,.U33,.U55{
+    font-size: 28px;
+    margin-top: 30px;
+}
+.U22,.U44,.U66{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+/* FOQ INFORMATIONS */
+
+.V{
+    background-color: black;
+    color: aliceblue;
+    padding: 60px;
+    text-align: center;
+}
+.V1{
+    font-size: 70px;
+}
+.V2{
+    font-size: 20px;
+}
+.W{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 60px;
+}
+.W1{
+    font-size: 25px;
+}
+.W2{
+    font-size: 18px;
+}
+.X{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 60px;
+}
+.X1{
+    font-size: 25px;
+}
+.X2{
+    font-size: 18px;
+}
+.Y{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 60px;
+}
+.Y1{
+    font-size: 25px;
+}
+.Y2{
+    font-size: 18px;
+}
+
+/* CONTACT */
+
+.Z{
+    background-color: black;
+    color: aliceblue;
+    padding: 50px;
+    display: flex;
+}
+.Z2{
+    font-size: 60px;
+}
+.Z3{
+    font-size: 25px;
+}
+.Z4{
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 20px;
+    display: flex;
+    
+}
+.Z5{
+    margin-right: 10px;
+}
+.Z6{
+    margin-left: 100px;
+}
+.Z9{
+   margin-top: 150px; 
+   margin-left: -510px;
+   font-size: 20px;
+
+}
+.Z10{
+    
+    margin-top: 80px;
+    color: black;
+    background-color: rgb(249, 249, 155);
+    border-radius: 20px;
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    border-color: yellow;
+}
+.Z10:hover{
+    background-color: black;
+    color: rgb(226, 226, 19);
+}
+
+/* SULLIVAN TABS */
+
+.Z11{
+    background-color: black;
+}
+.Z12{
+   font-size: 30px;
+    color: aliceblue;
+    padding: 30px;
+}
+.ZZ1,.ZZ2,.ZZ3,.ZZ4{
+    background-color: black;
+    width: 200px;
+    outline: none;
+    height: 30px;
+    color: white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+.Z14{ 
+    font-size: 18px;
+    
+}
+.Z15{
+    height: 30px;
+    width: 350px;
+    margin-top: 10px;
+    background-color: rgb(13, 13, 13);
+    border-color: aliceblue;
+    
+}
+.Z16{
+    margin-top: 20px;
+}
+
+/* CHECK BOX  */
+
+/* .ZZ5{
+    height: 16px;
+    width: 16px;
+  
+
+} */
+
+
+.ZZ5{
+      appearance: none;   /* Remove default style */
+      -webkit-appearance: none;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #555;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+    }
+
+.ZZ5:checked {
+
+      border-color: #e0e1e2;
+    }
+
+.ZZ5:checked::after {
+      content: "✔";
+      position: absolute;
+      left: 3px;
+      top: -2px;
+      font-size: 16px;
+      color: white;
+    }
+
+
+.Z17{
+    
+    margin-top: 30px;
+    color: black;
+    background-color: rgb(249, 249, 155);
+    border-radius: 20px;
+    height: 40px;
+    width: 350px;
+    font-size: 20px;
+    border-color: yellow;
+}
+.Z17:hover{
+    background-color: black;
+    color: rgb(226, 226, 19);
+}
+
+/* LINK TAGS */
+
+.Z18{
+    margin-left: 300px;
+    
+}
+.Z19{
+    font-size: 17px;
+}
+
+.ZA{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    height: 500px;
+}
+.Z21,.Z22,.Z23,.Z24,.Z25{
+    color: white;
+    margin-left: 30px;
+}
+.Z13,.Z18{
+    border-right: solid 2px white;
+    height: 500px;
+}
+.Z13,.Z18,.Z20{
+    width: 400px;
+    margin-left: 100px;
+    
+}
+.Z26,.Z27,.Z20{
+    margin-top: 200px;
+}
+.Z26{
+    margin-left: -50px;
+}
+.Z27{
+    margin-left: 50px;
+
+}
+
+/* END TAGS */
+
+.Z28{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+}
+.Z29{
+    border-right: solid 2px white;
+    margin-left: 300px;
+}
+.Z30{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+/* SHOP ALL HTML */
+
+.SA4,.SA5,.SA6,.SA7{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.SA{
+    display: flex;
+}
+
+.SA2{
+    color: white;
+    text-decoration: none;
+}
+.SA4:hover{
+    color: yellow;
+    text-decoration-line: underline;
+}
+.SA5:hover{
+    color: yellow;
+    text-decoration-line: underline;
+}
+.SA6:hover{
+    color: yellow;
+    text-decoration-line: underline;
+}
+.SA7:hover{
+    color: yellow;
+    text-decoration-line: underline;
+}
+.SA10{
+    width: 200px;
+}
+.SA11{
+    display: flex;
+}
+.SA13{
+    margin-left: 150px;
+}
+.SA17{
+    margin-top: 20px;
+    display: flex;
+}
+.SA18{
+    margin-top: 20px;
+    display: flex;
+}
+.SA19{
+    margin-top: 20px;
+    display: flex;
+}
+.S14{
+    margin-left: 300px;
+}
+.SA4{
+    margin-top: 100px;
+}
+
+
+
+
